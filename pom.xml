@@ -13,6 +13,26 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>aggregator</name>
     <description>Aggregator service</description>
+	
+	
+    <issueManagement>
+        <url>https://github.com/sergiopoliveira/aggregator/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/sergiopoliveira/aggregator</url>
+        <connection>scm:git:git://github.com/sergiopoliveira/aggregator.git</connection>
+        <developerConnection>scm:git:git@github.com:sergiopoliveira/aggregator.git</developerConnection>
+    </scm>
 
     <properties>
         <java.version>1.8</java.version>
@@ -146,6 +166,25 @@
                         </compilerArg>
                     </compilerArgs>
                 </configuration>
+            </plugin>
+			   <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
