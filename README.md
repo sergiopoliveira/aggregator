@@ -67,10 +67,10 @@ mvn test
 
 ## Built With
 
-*   Java 11
+*   Java 8
 *   Spring Boot
 *   Spring Data JPA
-*   Project Lombok
+*   ActiveMQ
 *   MapStruct
 *   Maven
 *   JUnit, Mockito
