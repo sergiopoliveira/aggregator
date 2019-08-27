@@ -1,4 +1,4 @@
-# aggregator
+# Aggregator service
 
 Aggregator service will to listen to a Message Queue, parse the JSON messages to Products and and saves them to the database. Also tracks if the Product is newly added or updated.
 
