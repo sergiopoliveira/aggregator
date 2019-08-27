@@ -1,6 +1,7 @@
 # Aggregator service
 
 [![CircleCI](https://circleci.com/gh/sergiopoliveira/aggregator.svg?style=svg)](https://circleci.com/gh/sergiopoliveira/aggregator)
+[![codecov](https://codecov.io/gh/sergiopoliveira/aggregator/branch/master/graph/badge.svg)](https://codecov.io/gh/sergiopoliveira/aggregator)
 
 Aggregator service will to listen to a Message Queue, parse the JSON messages to Products and and saves them to the database. Also tracks if the Product is newly added or updated.
 
