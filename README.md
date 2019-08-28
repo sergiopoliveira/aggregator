@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-JDK 8 and Maven or Docker is required to run this project.
+JDK 11 and Maven or Docker is required to run this project.
 
 ### Build and Run
 
