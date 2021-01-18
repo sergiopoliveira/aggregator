@@ -1,6 +1,6 @@
 # Aggregator service
 
-[![CircleCI](https://circleci.com/gh/sergiopoliveira/aggregator.svg?style=svg)](https://circleci.com/gh/sergiopoliveira/aggregator)
+[![Github Actions](https://github.com/sergiopoliveira/aggregator/workflows/master/badge.svg)](https://github.com/sergiopoliveira/aggregator/actions)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c05d2ac0b22047a9b5c03408a8ec8f9d)](https://www.codacy.com/app/sergiopoliveira/aggregator?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sergiopoliveira/aggregator&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/sergiopoliveira/aggregator/branch/master/graph/badge.svg)](https://codecov.io/gh/sergiopoliveira/aggregator)
 
